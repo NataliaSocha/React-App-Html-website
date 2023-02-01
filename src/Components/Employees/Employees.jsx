@@ -17,8 +17,9 @@ const EmployerMap = () => {
   );
   return (
     <section className="about-us">
+      <a name="about">o nas</a>
       <div className="container container-workers">
-        <h1 class="header header-employe">Nasi specjaliści</h1>
+        <h1 className="header header-employe">Nasi specjaliści</h1>
         {SectionMap}
       </div>
     </section>

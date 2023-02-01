@@ -58,41 +58,11 @@ a {
 .contact {
   cursor: not-allowed;
 }
-
-.container-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.list-navigation {
-  display: flex;
-  justify-content: space-between;
-  width: 300px;
-}
-.logo {
-  font-size: 18px;
-  font-weight: 700;
-}
-nav {
-  display: flex;
-  width: 100vw;
-  background-color: rgba(78, 78, 78, 1);
-  height: 50px;
-  color: #fff;
-}
-a {
-  color: #fff;
-  text-decoration: none;
-}
-.contact {
-  cursor: not-allowed;
-}
-
 /***Header***/
 header {
   display: flex;
   height: calc(100vh - 50px);
-  background-image: url(./Components/Assets/img7.png);
+  background-image: url(./Components/Assets/background1.jpg);
   background-size: cover;
   color: #fff;
 }
@@ -239,6 +209,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
+  
 }
 .box {
   display: flex;
