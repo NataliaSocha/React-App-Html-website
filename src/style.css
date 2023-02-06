@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -21,13 +22,16 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
 body {
   font-family: "Roboto", sans-serif;
 }
+
 .container {
   width: 960px;
   margin: 0 auto;
 }
+
 /**********Navigation*********/
 
 .container-navigation {
@@ -35,15 +39,18 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .list-navigation {
   display: flex;
   justify-content: space-between;
   width: 300px;
 }
+
 .logo {
   font-size: 18px;
   font-weight: 700;
 }
+
 nav {
   display: flex;
   width: 100vw;
@@ -51,14 +58,18 @@ nav {
   height: 50px;
   color: #fff;
 }
+
 a {
   color: #fff;
   text-decoration: none;
 }
+
 .contact {
   cursor: not-allowed;
 }
+
 /***Header***/
+
 header {
   display: flex;
   height: calc(100vh - 50px);
@@ -66,17 +77,20 @@ header {
   background-size: cover;
   color: #fff;
 }
+
 .cover {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
 }
+
 .container-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -87,10 +101,12 @@ header {
   font-weight: 700;
   font-size: 36px;
 }
+
 .paragraph-main {
   font-size: 18px;
   margin-top: 50px;
 }
+
 .button-link {
   background-color: transparent;
   text-align: center;
@@ -104,6 +120,7 @@ header {
   cursor: pointer;
   transition: 1s;
 }
+
 .button-link:hover {
   background-color: #fff;
   color: black;
@@ -126,6 +143,7 @@ header {
   justify-content: space-between;
   height: 100%;
 }
+
 .header-employe {
   font-size: 36px;
   font-weight: 700;
@@ -140,6 +158,7 @@ header {
   background-size: cover;
   border-radius: 50%;
 }
+
 .img-employe-two {
   width: 190px;
   height: 190px;
@@ -147,26 +166,32 @@ header {
  
   background-size: cover;
 }
+
 .about-employe-one {
   display: flex;
   align-items: center;
 }
+
 .about-employe-two {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
 }
+
 .about-employe:nth-of-type(odd) {
   justify-content: left;
 }
+
 .about-employe:nth-of-type(even) {
   justify-content: right;
 }
+
 .paragraph-employe {
   display: flex;
   align-items: center;
   font-size: 18px;
 }
+
 .employe-one {
   margin-left: 30px;
   text-align: left;
@@ -178,6 +203,7 @@ header {
   margin-right: 30px;
   width: 70%;
 }
+
 .name-employe {
   display: block;
   font-size: 18px;
@@ -186,6 +212,7 @@ header {
 }
 
 /******************Offer********************/
+
 .services {
   display: flex;
   
@@ -193,16 +220,19 @@ header {
   background-color: rgba(64, 93, 120, 1);
   padding: 80px 0px;
 }
+
 .container-offer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .header-offer {
   font-weight: 700;
   color: #fff;
   font-size: 36px;
 }
+
 .box-offer {
   display: grid;
   margin: 0 auto;
@@ -211,6 +241,7 @@ header {
   justify-items: center;
   
 }
+
 .box {
   display: flex;
   width: 200px;
@@ -224,11 +255,13 @@ header {
   font-size: 24px;
   transition: 0.5s;
 }
+
 .box1 {
   display: flex;
   flex-direction: column;
   position: relative;
 }
+
 .dot {
   width: 22px;
   height: 22px;
@@ -238,6 +271,7 @@ header {
   top: -11px;
   left: -11px;
 }
+
 .box:hover {
   transform: scale(1.05);
 }
@@ -245,9 +279,11 @@ header {
 .box-paragraph {
   font-size: 18px;
 }
+
 .to-left{
   text-align: left;
 }
+
 .to-right{
   text-align: right;
 }
@@ -266,6 +302,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 .footer-icons {
   display: flex;
   justify-content: space-between;
@@ -274,10 +311,12 @@ header {
 .fa-square-facebook {
   font-size: 30px;
 }
+
 .fa-instagram {
   font-size: 30px;
   padding-right: 10px;
 }
+
 li {
   list-style: none;
 }
