@@ -1,17 +1,16 @@
+import React from "react";
 import Navigation from "./Components/Nav";
 import Header from "./Components/Header";
 import Services from "./Components/Services/Services";
 import Footer from "./Components/Footer";
-import EmployerMap from "./Components/Employees/Employees";
+import EmployerRen from "./Components/Employees/EmployerRen";
 
 function App() {
-
-
   return (
     <div className="App">
       <Navigation />
       <Header />
-      <EmployerMap/>
+      <EmployerRen />
       <Services />
       <Footer />
     </div>

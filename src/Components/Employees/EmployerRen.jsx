@@ -1,8 +1,8 @@
 import React from "react";
-import EmployerData from "./EmployeesArray";
-import EmployerLeftOrRight from "./EmployerList";
+import EmployerData from "../../Data/EmployerData";
+import EmployerLeftOrRight from "./EmployerLeftOrRight";
 
-const EmployerMap = () => {
+const EmployerRen = () => {
   const SectionMap = EmployerData.map(
     ({ nameEmployer, img, department, description }, index) => (
       <EmployerLeftOrRight
@@ -16,8 +16,7 @@ const EmployerMap = () => {
     )
   );
   return (
-    <section className="about-us">
-      <a name="about">o nas</a>
+    <section id="about-us" className="about-us">
       <div className="container container-workers">
         <h1 className="header header-employe">Nasi specjaliści</h1>
         {SectionMap}
@@ -25,4 +24,4 @@ const EmployerMap = () => {
     </section>
   );
 };
-export default EmployerMap;
+export default EmployerRen;

@@ -7,7 +7,7 @@ export default function Navigation() {
         <div className="logo">moja firma</div>
         <ul className="list-navigation">
           <li>
-            <a href="#about">o nas</a>
+            <a href="#about-us">o nas</a>
           </li>
           <li>
             <a href="#services">oferta</a>

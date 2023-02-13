@@ -1,5 +1,5 @@
-import img1 from "../../Components/Assets/Pracownik-1.PNG"
-import img2 from "../../Components/Assets/Pracownik-2.PNG"
+import img1 from "../Assets/Pracownik-1.PNG";
+import img2 from "../Assets/Pracownik-2.PNG";
 
 const EmployerData = [
   {

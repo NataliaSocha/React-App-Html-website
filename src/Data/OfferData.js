@@ -1,4 +1,4 @@
-export const offerBoxes = [
+export const OfferData = [
   { title: "Usługa 1", isNew: true },
   { title: "Usługa 2", isNew: false },
   { title: "Usługa 3", isNew: false },
