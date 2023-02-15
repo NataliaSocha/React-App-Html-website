@@ -1,6 +1,6 @@
 import React from "react";
 import Box from "./Box";
-import { OfferData } from "../../Data/OfferData";
+import { OfferData } from "../Data/OfferData";
 
 export default function Services() {
   return (

@@ -1,16 +1,16 @@
 import React from "react";
-import Navigation from "./Components/Nav";
-import Header from "./Components/Header";
-import Services from "./Components/Services/Services";
-import Footer from "./Components/Footer";
-import EmployerRen from "./Components/Employees/EmployerRen";
+import Navigation from "./Components/Nav/Nav";
+import Header from "./Components/Header/Header";
+import Services from "./Services/Services";
+import Footer from "./Components/Footer/Footer";
+import Employees from "./Components/Employees/Employees";
 
 function App() {
   return (
     <div className="App">
       <Navigation />
       <Header />
-      <EmployerRen />
+      <Employees />
       <Services />
       <Footer />
     </div>

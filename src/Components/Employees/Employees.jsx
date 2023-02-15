@@ -2,7 +2,7 @@ import React from "react";
 import EmployerData from "../../Data/EmployerData";
 import EmployerLeftOrRight from "./EmployerLeftOrRight";
 
-const EmployerRen = () => {
+const Employees = () => {
   const SectionMap = EmployerData.map(
     ({ nameEmployer, img, department, description }, index) => (
       <EmployerLeftOrRight
@@ -24,4 +24,4 @@ const EmployerRen = () => {
     </section>
   );
 };
-export default EmployerRen;
+export default Employees;

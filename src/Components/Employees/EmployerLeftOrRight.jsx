@@ -1,5 +1,5 @@
 import React from "react";
-import "./EmployerRen";
+import "./Employees";
 
 const EmployerLeftOrRight = ({
   nameEmployer,
