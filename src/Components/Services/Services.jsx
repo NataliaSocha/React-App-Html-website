@@ -1,6 +1,6 @@
 import React from "react";
 import Box from "./Box";
-import { OfferData } from "../Data/OfferData";
+import { offerData } from "../../Data/offerData";
 
 export default function Services() {
   return (
@@ -8,7 +8,7 @@ export default function Services() {
       <div className="container container-offer">
         <h1 className="header-offer">Czym zajmuje się nasza firma?</h1>
         <div className="box-offer">
-          {OfferData.map((item, index) => (
+          {offerData.map((item, index) => (
             <Box key={index} isNew={item.isNew} title={item.title} />
           ))}
         </div>

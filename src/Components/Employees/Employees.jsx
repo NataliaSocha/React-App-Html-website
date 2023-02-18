@@ -1,9 +1,9 @@
 import React from "react";
-import EmployerData from "../../Data/EmployerData";
+import employerData from "../../Data/employerData";
 import EmployerLeftOrRight from "./EmployerLeftOrRight";
 
 const Employees = () => {
-  const SectionMap = EmployerData.map(
+  const SectionMap = employerData.map(
     ({ nameEmployer, img, department, description }, index) => (
       <EmployerLeftOrRight
         key={index}

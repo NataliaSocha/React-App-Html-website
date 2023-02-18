@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "./Components/Nav/Nav";
 import Header from "./Components/Header/Header";
-import Services from "./Services/Services";
+import Services from "./Components/Services/Services";
 import Footer from "./Components/Footer/Footer";
 import Employees from "./Components/Employees/Employees";
 

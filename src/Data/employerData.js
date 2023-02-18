@@ -1,7 +1,7 @@
 import img1 from "../Assets/Pracownik-1.PNG";
 import img2 from "../Assets/Pracownik-2.PNG";
 
-const EmployerData = [
+const employerData = [
   {
     img: img1,
     nameEmployer: "imię i nazwisko",
@@ -18,4 +18,4 @@ const EmployerData = [
   },
 ];
 
-export default EmployerData;
+export default employerData;
